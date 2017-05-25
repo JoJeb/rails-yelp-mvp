@@ -1,0 +1,8 @@
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :number %>
+  <%= f.input :category %>
+  <br>
+  <%= f.submit class: 'btn btn-danger' %>
+<% end %>
